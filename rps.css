@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url(font/Minecraft.ttf);
+}
+
+* {
+    font-family: 'minecraft';
+    padding: 0;
+}
+
+
+body {
+    min-width: 400px;
+    color: white;
+    background-color: rgb(17, 32, 93);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.robot-container {
+    display: flex;
+}
+
+
+.robot {
+    font-size: 190px;
+}
+
+.vs {
+    font-size: 40px;
+}
+
+.player-container {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rock,
+.paper,
+.scissors {
+    border: none;
+    background-color: rgb(79, 96, 164);
+    font-size: 90px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.rock:hover,
+.paper:hover,
+.scissors:hover,
+.reset-button:hover {
+    background-color:rgb(88, 105, 174);
+}
+
+.rock:active,
+.paper:active,
+.scissors:active,
+.reset-button:active {
+    background-color:rgb(94, 109, 172);
+}
+.outcome {
+    padding-bottom: 30px;
+}
+
+.reset-button {
+    border: none;
+    color: white;
+    background-color: rgb(79, 96, 164);
+    font-size: 30px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.footer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+.git {
+    height: 30px;
+}
